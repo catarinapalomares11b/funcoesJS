@@ -47,3 +47,15 @@ function parOuImpar(numero){
 }
 
 console.log(parOuImpar(14))
+
+//EXEMPLO 6
+let numero = 10
+
+const button = document.querySelector("button")
+
+button.addEventListener("click", function(){
+    numero++
+    console.log(numero)
+})
+
+console.log(numero)
