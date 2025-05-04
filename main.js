@@ -71,3 +71,10 @@ button.addEventListener("click", () => {
 })
 
 console.log(numero)
+
+//EXEMPLO 8
+let somar = (valor1, valor2) => valor1 + valor2
+let multiplicacao = (numero1, numero2) => numero1 * numero2
+
+console.log(multiplicacao(10, 20))
+console.log(somar(10, 70))
