@@ -5,3 +5,10 @@ function mostrarAlerta(){
 }
 
 mostrarAlerta()
+
+//EXEMPLO 2
+function somar(valorA, valorB){
+    alert(valorA + valorB)
+}
+
+somar(20, 12)
